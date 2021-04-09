@@ -49,11 +49,53 @@ table {
 
 * {
     box-sizing: border-box;
+        max-width:100%;
+        border:1px solid grey;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.head-sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 4%;
+}
+ .nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    width: 1200px;
+    border-radius: 10%;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+
+.bg-img{
+    display: flex;
+    background-image:url('jumbo.jpg');
+    height:20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 2%;
+}
+.bg-img2{
+    display: flex;
+    background-image:url('/img/jumbo-about.png');
+    height:20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,7 +113,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.top-content, .top-about{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -111,7 +153,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box-1{
+    background-color: teal;
+}
+#box-2{
+    background-color: gold;
+}
+#box-3{
+    background-color: cadetblue;
+}
+#box-4{
+    background-color: coral;
+}
+#box-5{
+    background-color:crimson ;
+}
+#box-6{
+    background-color:forestgreen ;
+}
+#box-7{
+    background-color:darkorchid ;
+}
+#box-8{
+    background-color:hotpink ;
+}
+#box-9{
+    background-color:indigo ;
+}
+#box-10{
+    background-color:dodgerblue ;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +214,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.first-h, .second-h{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.bot{
+    border-top: 2% 0;
+    }
+button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
 }
